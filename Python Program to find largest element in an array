@@ -1,0 +1,11 @@
+def largest(arr,n): #def funtion and largest(arr,n) here funtion name colon start of the funtion body
+
+    max=arr[0] #initial max element
+    for i in range(1,n): #compare every element with max
+        if arr[i]>max:
+           max=arr[i]
+    return max
+arr=[1,2,3,4,5,6,7,8,9]
+n=len(arr)
+Ans=largest(arr,n)
+print("Large digit",Ans)
